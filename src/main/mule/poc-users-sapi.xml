@@ -185,6 +185,7 @@ output application/json
 ] as Array {encoding: "UTF-8", mediaType: "application/json"}]]></ee:set-payload>
             </ee:message>
         </ee:transform>
+		<logger level="INFO" doc:name="Logger" doc:id="b1856282-3dec-4110-a652-7aeec6899a3d" />
     </flow>
     <flow name="post:\users:application\json:poc-users-sapi-config">
         <ee:transform doc:name="Transform Message">
