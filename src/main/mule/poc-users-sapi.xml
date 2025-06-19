@@ -160,7 +160,8 @@ output application/json
         </ee:transform>
     </flow>
     <flow name="get:\users:poc-users-sapi-config">
-        <ee:transform doc:name="Transform Message">
+        <logger level="INFO" doc:name="Logger" doc:id="463ba9bf-6214-49b8-bd41-31029bee63f0" message="#[payload]"/>
+		<ee:transform doc:name="Transform Message">
             <ee:message>
                 <ee:set-payload><![CDATA[%dw 2.0
 output application/json
