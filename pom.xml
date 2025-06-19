@@ -36,6 +36,9 @@
 						<uri>https://anypoint.mulesoft.com/</uri>
 						<muleVersion>4.9-e-java17</muleVersion>
 						<server>Repository</server>
+						<anypointExchangeRepository>
+							<id>Repository</id>
+						</anypointExchangeRepository>
 						<applicationName>poc-users-cicd-4</applicationName>
 						<region>us-east-1</region>
 						<environment>Sandbox</environment>
@@ -89,11 +92,11 @@
 			<layout>default</layout>
 		</repository>
 		<repository>
-            <id>Repository</id>
-            <name>Private Exchange repository</name>
-            <url>https://maven.anypoint.mulesoft.com/api/v3/organizations/b8d4946b-98ba-478e-8777-2b7fc40e1cfc/maven</url>
-            <layout>default</layout>
-        </repository>
+			<id>Repository</id>
+			<name>Private Exchange repository</name>
+			<url>https://maven.anypoint.mulesoft.com/api/v3/organizations/b8d4946b-98ba-478e-8777-2b7fc40e1cfc/maven</url>
+			<layout>default</layout>
+		</repository>
 	</repositories>
 
 	<pluginRepositories>
