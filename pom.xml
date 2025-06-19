@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.mycompany</groupId>
+	<groupId>b8d4946b-98ba-478e-8777-2b7fc40e1cfc</groupId>
 	<artifactId>poc-mule</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>mule-application</packaging>
@@ -45,8 +45,6 @@
 						<workers>1</workers>
 					</cloudHubDeployment>
 				</configuration>
-
-
 			</plugin>
 		</plugins>
 	</build>
