@@ -6,7 +6,7 @@
 
 	<groupId>b8d4946b-98ba-478e-8777-2b7fc40e1cfc</groupId>
 	<artifactId>poc-mule</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>mule-application</packaging>
 
 	<name>poc-mule-cicd</name>
@@ -81,7 +81,7 @@
 		<repository>
 			<id>anypoint-exchange-v3</id>
 			<name>Anypoint Exchange</name>
-			<url>https://maven.anypoint.mulesoft.com/api/b8d4946b-98ba-478e-8777-2b7fc40e1cfc/v3/maven</url>
+			<url>https://maven.anypoint.mulesoft.com/api/v3/maven</url>
 			<layout>default</layout>
 		</repository>
 		<repository>
@@ -90,6 +90,12 @@
 			<url>https://repository.mulesoft.org/releases/</url>
 			<layout>default</layout>
 		</repository>
+		<repository>
+            <id>Repository</id>
+            <name>Private Exchange repository</name>
+            <url>https://maven.anypoint.mulesoft.com/api/v3/organizations/b8d4946b-98ba-478e-8777-2b7fc40e1cfc/maven</url>
+            <layout>default</layout>
+        </repository>
 	</repositories>
 
 	<pluginRepositories>
