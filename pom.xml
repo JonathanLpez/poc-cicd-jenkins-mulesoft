@@ -38,7 +38,7 @@
 						<connectedAppClientId>${clientId}</connectedAppClientId>
 						<connectedAppClientSecret>${clientSecret}</connectedAppClientSecret>
 						<connectedAppGrantType>client_credentials</connectedAppGrantType>
-						<applicationName>${appName}</applicationName>
+						<applicationName>poc-users-cicd-4</applicationName>
 						<region>${region}</region>
 						<environment>${enviroment}</environment>
 						<workerType>${workerType}</workerType>
