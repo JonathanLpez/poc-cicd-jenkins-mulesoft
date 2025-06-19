@@ -35,14 +35,14 @@
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com/</uri>
 						<muleVersion>4.9-e-java17</muleVersion>
-						<connectedAppClientId>076e6f6b0c964d7c8fe260d490f67dac</connectedAppClientId>
-						<connectedAppClientSecret>02Ee884E2ef04B518E496173CD19264f</connectedAppClientSecret>
+						<connectedAppClientId>${clientId}</connectedAppClientId>
+						<connectedAppClientSecret>${clientSecret}</connectedAppClientSecret>
 						<connectedAppGrantType>client_credentials</connectedAppGrantType>
-						<applicationName>poc-users-api-app-4</applicationName>
-						<region>us-east-1</region>
-						<environment>Sandbox</environment>
-						<workerType>MICRO</workerType>
-						<workers>1</workers>
+						<applicationName>${appName}</applicationName>
+						<region>${region}</region>
+						<environment>${enviroment}</environment>
+						<workerType>${workerType}</workerType>
+						<workers>${workers}</workers>
 					</cloudHubDeployment>
 				</configuration>
 			</plugin>
