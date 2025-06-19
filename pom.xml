@@ -44,7 +44,13 @@
 						<workerType>MICRO</workerType>
 						<workers>1</workers>
 					</cloudHubDeployment>
+					<anypointExchangeCredentials>
+						<clientId>076e6f6b0c964d7c8fe260d490f67dac</clientId>
+						<clientSecret>02Ee884E2ef04B518E496173CD19264f</clientSecret>
+					</anypointExchangeCredentials>
 				</configuration>
+
+
 			</plugin>
 		</plugins>
 	</build>
